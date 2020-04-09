@@ -4,7 +4,7 @@ import styles from './Column.scss';
 
 class Column extends React.Component {
     static propTypes = {
-        titleColumn:PropTypes.string.isRequired,}
+        titleColumn:PropTypes.string,}
   render() {
     return (
       <section className={styles.component}>
